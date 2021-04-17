@@ -1332,6 +1332,33 @@
   }
 }
 @media only screen and (max-width: 375px) {
+  .header {
+    height: 600px;
+  }
+  .box-cercles-schedule {
+    width: 87%;
+    height: 156px;
+  }
+  .img-cercles {
+    width: 112%;
+  }
+  .team-img-cercles {
+    width: 72%;
+    height: 98%;
+  }
+  .team-resp-2 {
+    height: 574px;
+    margin-bottom: 1rem;
+  }
+  .team-resp-1 {
+    height: 574px;
+    margin-bottom: 1rem;
+  }
+  #bottom-page {
+    height: 417px;
+    padding-top: 44%;
+    overflow: hidden;
+  }
   .schedule-march {
     height: 298px;
   }
