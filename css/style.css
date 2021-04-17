@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: 'GlobotipoRounded-Regular';
-  src: url(/fonts/GlobotipoRounded-Regular.ttf);
+  src: url('./fonts/GlobotipoRounded-Regular.ttf');
 }
 
 /*HEADER*/
@@ -1233,7 +1233,7 @@
 }
 
 .box-bottom-page {
-  background-image: url('/imagens/bg_bottom.jpg');
+  background-image: url('../imagens/bg_bottom.jpg');
   width: 100%;
   position: relative;
   height: 100%;
