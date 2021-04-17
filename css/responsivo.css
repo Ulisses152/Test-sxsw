@@ -1332,6 +1332,10 @@
   }
 }
 @media only screen and (max-width: 375px) {
+  .video{
+  left: 50%;
+  }
+    
   .header {
     height: 600px;
   }
@@ -1368,4 +1372,9 @@
   .upload-img {
     margin-top: 14.5rem;
   }
+  #bottom-page {
+    height: 376px;
+    padding-top: 44%;
+    overflow: hidden;
+}
 }
