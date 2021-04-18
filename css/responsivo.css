@@ -924,9 +924,11 @@
   .manzar-text {
     height: 509px;
   }
+
   .manzar-text h3 {
-    font-weight: 400;
+    font-weight: 600;
   }
+  
   .img-cercles {
     width: 100%;
   } 
