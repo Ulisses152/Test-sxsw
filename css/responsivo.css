@@ -875,7 +875,7 @@
   }
   .schedule-march {
     width: 100%;
-    height: 179px;
+    height: 359px;
   }
   .box-cercles-schedule {
     width: 76%;
@@ -951,7 +951,7 @@
   }
   /*TEAM*/
   #team {
-    height: 4300px;
+    height: 4400px;
   }
   .team-name-text {
     height: 100%;
@@ -963,11 +963,11 @@
     display: none;
   }
   .team-cercle-md {
-    width: 39%;
+   width: 26%;
     height: 39%;
     position: absolute;
     top: 50%;
-    left: 0;
+    left: 15%;
   }
   .img-user-1 {
     top: 12%;
@@ -983,21 +983,21 @@
     width: 100%;
   }
   .team-cercle-sm {
-    width: 20%;
+        width: 14%;
     height: 21%;
     position: absolute;
-    top: 20%;
+    top: 10%;
     left: 26%;
   }
 
   .team-resp-2 {
     padding: 0;
-    height: 575px;
+    height: 675px;
     width: 100%;
   }
   .team-resp-1 {
     padding: 0;
-    height: 575px;
+    height: 675px;
     width: 100%;
   }
   .team-img.cercle-2,
