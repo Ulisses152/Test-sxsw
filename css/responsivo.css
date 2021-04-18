@@ -1334,6 +1334,12 @@
   .video{
   left: 50%;
   }
+  
+  .logo-header {
+    height: 70px;
+    width: 55%;
+    top: 4%;
+  }
     
   .header {
     height: 600px;
@@ -1352,7 +1358,33 @@
   .name-text-manzar h2 {
     font-size: 2rem;
     
-}
+  }
+  .img-user-1 {
+    top: 12%;
+    left: 32%;
+    border-radius: 50%;
+    width: 79%;
+    height: 73%;
+    position: absolute;
+  }
+  .team-cercle-md {
+    width: 36%;
+    height: 33%;
+    position: absolute;
+    top: 50%;
+    left: 1%;
+  }
+  .img-user-2, .img-user-3, .img-user-4, .img-user-5, .img-user-6, .img-user-7 {
+    top: 2%;
+    left: 21%;
+    border-radius: 50%;
+    width: 57%;
+    height: 77%;
+    position: absolute;
+  }
+  #team {
+    height: 4400px;
+  }
   .team-resp-2 {
     height: 574px;
     margin-bottom: 1rem;
@@ -1367,7 +1399,11 @@
     overflow: hidden;
   }
   .schedule-march {
-    height: 298px;
+    height: 398px;
+  }
+  .manzar-text h3 {
+    margin-top: 4px;
+    
   }
   .box-text-arrow p {
     font-size: 0.9rem;
