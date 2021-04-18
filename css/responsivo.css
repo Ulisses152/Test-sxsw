@@ -675,10 +675,103 @@
 
 /*MOBILE*/
 
+
+@media only screen and (max-width: 480px) {
+  .header {
+    height: 486px;
+  }
+  .logo-header {
+    height: auto;
+    width: 35%;
+    margin-top: 1rem;
+  }
+  .schedule-march {
+    width: 100%;
+    height: 516px;
+  }
+  .upload-img {
+    width: 41%;
+    margin-top: 13rem;
+    height: auto;
+  }
+  .box-text-team {
+    margin-top: 4rem;
+    padding-top: 0;
+    width: 80%;
+  }
+  .box-cercles-schedule {
+    width: 63%;
+    height: 156px;
+  }
+  .box-cercles-schedule h2 {
+    font-size: 1.6rem;
+  }
+  .box-cercles-schedule h3 {
+    margin-bottom: 4px;
+  }
+  .pillars {
+    height: 1260px;
+  }
+  .pillars-text {
+    width: 46%;
+    margin-top: 2rem;
+  }
+  .text-double {
+    height: 17.6%;
+    padding-top: 1rem;
+  }
+  .img-cercles {
+    width: 85%;
+  }
+  #team {
+    height: 3811px;
+  }
+  .team-img-cercles {
+    width: 100%;
+    height: 79%;
+  }
+  .team-cercle-orange {
+    left: 5%;
+  }
+  .team-cercle-md {
+    left: 7%;
+  }
+  .team-cercle-sm {
+    left: 21%;
+  }
+  .img-user-1 {
+    left: 28%;
+  }
+  .team-resp-2 {
+    height: 474px;
+    margin-bottom: 1rem;
+  }
+  .team-resp-1 {
+    height: 474px;
+    margin-bottom: 1rem;
+  }
+  .box-name-text-2,
+  .box-name-text-3,
+  .box-name-text-4,
+  .box-name-text-5,
+  .box-name-text-6,
+  .box-name-text-7 {
+    height: 378px;
+  }
+  #bottom-page {
+    height: 417px;
+    padding-top: 23px;
+    overflow: hidden;
+  }
+  .logo-bottom {
+    height: auto;
+    width: 32%;
+  }
+}
 @media only screen and (max-width: 425px) {
   /*header*/
   .header {
-    height: 698px;
+    height: 723px;
   }
   .logo-header {
     height: 70px;
@@ -700,7 +793,7 @@
   }
   .video {
     width: 80%;
-    left: 52%;
+    left: 50%;
   }
   .double-cercle,
   .cercle-line-header-left,
@@ -770,7 +863,7 @@
     height: 391px;
   }
   .box-text-arrow p {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
   .box-text-arrow {
     height: 199px;
@@ -785,9 +878,8 @@
     height: 179px;
   }
   .box-cercles-schedule {
-    width: 100%;
-    height: 199px;
-    margin-top: 8rem;
+    width: 76%;
+    height: 156px;
   }
   .cercle-md {
     position: absolute;
@@ -836,9 +928,8 @@
     font-weight: 400;
   }
   .img-cercles {
-    height: 83%;
     width: 100%;
-  }
+  } 
   .cercle-md-manzar {
     left: 16%;
     bottom: 9%;
@@ -882,7 +973,7 @@
     top: 12%;
     left: 37%;
     border-radius: 50%;
-    width: 81%;
+    width: 50%;
     height: 73%;
     position: absolute;
   }
@@ -1237,98 +1328,6 @@
     position: absolute;
     top: 17%;
     left: 74%;
-  }
-}
-@media only screen and (max-width: 480px) {
-  .header {
-    height: 486px;
-  }
-  .logo-header {
-    height: auto;
-    width: 35%;
-    margin-top: 1rem;
-  }
-  .schedule-march {
-    width: 100%;
-    height: 516px;
-  }
-  .upload-img {
-    width: 41%;
-    margin-top: 13rem;
-    height: auto;
-  }
-  .box-text-team {
-    margin-top: 4rem;
-    padding-top: 0;
-    width: 80%;
-  }
-  .box-cercles-schedule {
-    width: 63%;
-    height: 156px;
-  }
-  .box-cercles-schedule h2 {
-    font-size: 1.6rem;
-  }
-  .box-cercles-schedule h3 {
-    margin-bottom: 4px;
-  }
-  .pillars {
-    height: 1260px;
-  }
-  .pillars-text {
-    width: 46%;
-    margin-top: 2rem;
-  }
-  .text-double {
-    height: 17.6%;
-    padding-top: 1rem;
-  }
-  .img-cercles {
-    width: 85%;
-  }
-  #team {
-    height: 3811px;
-  }
-  .team-img-cercles {
-    width: 100%;
-    height: 79%;
-  }
-  .team-cercle-orange {
-    left: 5%;
-  }
-  .team-cercle-md {
-    left: 7%;
-  }
-  .team-cercle-sm {
-    left: 21%;
-  }
-  .img-user-1 {
-    left: 28%;
-  }
-  .team-resp-2 {
-    height: 474px;
-    margin-bottom: 1rem;
-  }
-  .team-resp-1 {
-    height: 474px;
-    margin-bottom: 1rem;
-  }
-  .box-name-text-2,
-  .box-name-text-3,
-  .box-name-text-4,
-  .box-name-text-5,
-  .box-name-text-6,
-  .box-name-text-7 {
-    height: 378px;
-  }
-  #bottom-page {
-    height: 417px;
-    padding-top: 23px;
-    overflow: hidden;
-  }
-  .logo-bottom {
-    height: auto;
-    width: 32%;
   }
 }
 @media only screen and (max-width: 375px) {
